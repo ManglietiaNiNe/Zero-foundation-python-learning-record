@@ -9,4 +9,5 @@ The textbook I use is "Python Crash Course, 2nd Edition(A Hands-on, Project-base
 需要声明的是，我是一个零基础的初学者，因此上传的实例中的注释无可避免是会存在错误的，这是独立学习过程中必然存在的局限性。假如你发现我的内容有错误、或是存在偏颇的地方，请给我留言，谢谢你的帮助。同时也希望有同样在学习的同学可以一起在评论区交流，让我们共同进步。
 
 It should be noted that I am a beginner with zero foundation, so the comments in the uploaded examples will inevitably have errors, which is an inevitable limitation in the independent learning process. 
-If you find my content wrong or biased, please leave me a message, and thank you for your help. At the same time, I hope that students who are also studying can communicate together in the comment area so that we can make progress together.
+If you find my content wrong or biased, please leave me a message, and thank you for your help. 
+At the same time, I hope that students who are also studying can communicate together in the comment area so that we can make progress together.

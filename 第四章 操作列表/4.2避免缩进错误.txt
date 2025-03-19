@@ -1,0 +1,36 @@
+#该篇全为不同的缩进错误，因此该篇代码无法运行xd
+
+#下为正确的例子：
+cars=['Mercedes-Benz','Aud','Volkswagen','Porsche','Ford','Tesla','Chevrolet','Cadillac','Rolls-Royce','Aston Martin','Ferrari','Lamborghini','Maserati','Citroën','Renault']
+for car in cars:
+    print ( f'\"I think {car} is very good.\"' )
+    print ( f'\"But it\'s not realistic for me to buy a {car}\"\n' )
+print ('Because I\'m just a student')
+
+#1、忘记缩进
+for car in cars:
+print ( f'\"But it\'s not realistic for me to buy a {car}\"\n' )#该行在for循环后没有缩进
+print ('Because I\'m just a student')
+
+#2、忘记缩进额外代码行
+for car in cars:
+    print ( f'\"I think {car} is very good.\"' )
+print ( f'\"But it\'s not realistic for me to buy a {car}\"\n' )#该行在for循环后没有缩进，但是没有报错，是因为这是个符合语法，但是存在逻辑错误的语句，本应因for循环而多次重复的句子却只出现了一次。
+print ('Because I\'m just a student')
+
+#3、不必要缩进
+cars=['Mercedes-Benz','Aud','Volkswagen','Porsche','Ford','Tesla','Chevrolet','Cadillac','Rolls-Royce','Aston Martin','Ferrari','Lamborghini','Maserati','Citroën','Renault']
+    print ('Because I\'m just a student')#该行没有缩进的必要却缩进了
+
+#4、循环后不必要的缩进
+cars=['Mercedes-Benz','Aud','Volkswagen','Porsche','Ford','Tesla','Chevrolet','Cadillac','Rolls-Royce','Aston Martin','Ferrari','Lamborghini','Maserati','Citroën','Renault']
+for car in cars:
+    print ( f'\"I think {car} is very good.\"' )
+    print ( f'\"But it\'s not realistic for me to buy a {car}\"\n' )
+    print ('Because I\'m just a student')#该行在for循环后缩进了，但是没有报错，是因为这是个符合语法，但是存在逻辑错误的语句，本应在for循环后只出现一次的语句，随for循环多次出现。
+
+#5、冒号遗漏
+for car in cars#for循环语句后缺少了冒号
+    print ( f'\"I think {car} is very good.\"' )
+    print ( f'\"But it\'s not realistic for me to buy a {car}\"\n' )
+print ('Because I\'m just a student')
