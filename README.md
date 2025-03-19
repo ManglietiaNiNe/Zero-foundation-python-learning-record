@@ -11,3 +11,4 @@ The textbook I use is "Python Crash Course, 2nd Edition(A Hands-on, Project-base
 It should be noted that I am a beginner with zero foundation, so the comments in the uploaded examples will inevitably have errors, which is an inevitable limitation in the independent learning process. 
 If you find my content wrong or biased, please leave me a message, and thank you for your help. 
 At the same time, I hope that students who are also studying can communicate together in the comment area so that we can make progress together.
+

@@ -34,3 +34,4 @@ for car in cars#for循环语句后缺少了冒号
     print ( f'\"I think {car} is very good.\"' )
     print ( f'\"But it\'s not realistic for me to buy a {car}\"\n' )
 print ('Because I\'m just a student')
+
